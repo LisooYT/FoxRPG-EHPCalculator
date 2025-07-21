@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FoxRPG EHP Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <img src="fox_icon.png" alt="Fox Icon" class="icon" />
+    <h1>EHP Calculator made by LisooYT</h1>
+
+    <label for="hp">Max HP:</label>
+    <input type="number" id="hp" placeholder="Enter max HP" />
+
+    <label for="def">Defense:</label>
+    <input type="number" id="def" placeholder="Enter defense" />
+
+    <button onclick="calculateEHP()">Calculate</button>
+
+    <div id="result">EHP: -</div>
+
+    <p class="description">For FoxRPG Nerds</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
